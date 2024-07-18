@@ -23,7 +23,7 @@ Legio DSL provides powerful tools for managing the entire lifecycle of applicati
 
 ## Legio
 
-Legio is a specialized DSL of Tara's family designed specifically to define and manage the project model within [Intino](../Intino_Systems). It serves as the backbone for defining the [lifecycle](../devops#development-lifecycle). This DSL enables developers to specify and control various elements such as dependencies, build configurations, deployment, and other project-related parameters.
+Legio is a specialized DSL of Tara's family designed specifically to define and manage the project model within [Intino](../Intino_Systems). It serves as the backbone for defining the [lifecycle](../intino-systems/devops#development-lifecycle). This DSL enables developers to specify and control various elements such as dependencies, build configurations, deployment, and other project-related parameters.
 
 ### Key Functions of Legio
 
@@ -39,7 +39,7 @@ Legio is integrated with the [Intino plugin](.) in IntelliJ IDEA, so when Intino
 An example of a project configuration is as follows:
 
 <div style="text-align: center;">
-  <img src="../images/legio-project.png" alt="Aspects" style="width: 50%;">
+  <img src="../images/legio-project.png" alt="Aspects" style="width: 80%;">
 </div>
 
 This project configuration defines a project named "foo-bar" with a detailed description. It includes a developer, John Doe, providing contact and organizational information. The project specifies multiple repositories, each with different release and snapshot URLs for artifact storage. Update policies for repositories can also be defined, such as daily updates for the "iceblue" and "lorem-maven" repositories. Maven central repository is automatically included.

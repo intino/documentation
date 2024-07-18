@@ -16,7 +16,7 @@ It is not limited to application code or service configurations; it extends to m
 The development lifecycle model leverages modern CI/CD practices and tools to streamline the software development process, ensuring quick integration, testing, and deployment of new code. This approach enhances the efficiency and reliability of delivering software updates to end-users. It integrates various tools and services to ensure smooth and efficient software development and deployment:
 
 <div style="text-align: center;">
-  <img src="../images/Lifecycle.png" alt="Lifecycle" style="width: 50%;">
+  <img src="../../images/Lifecycle.png" alt="Lifecycle" style="width: 50%;">
 </div>
 
 ### Binary Repository

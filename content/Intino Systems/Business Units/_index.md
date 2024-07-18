@@ -16,7 +16,7 @@ In Intino, business units are designed as modular components of the distributed 
 In Intino, business units are developed using the hexagonal architecture, a design pattern that emphasizes the separation of a system's core logic from external elements it interacts with, such as databases, user interfaces, or external services. This architecture, also known as the ports and adapters pattern, allows changes to these external elements without affecting the core logic.
 
 <div style="text-align: center;">
-  <img src="../images/hexagonal.png" alt="Hexagonal Architecture" style="width: 50%;">
+  <img src="../../images/hexagonal.png" alt="Hexagonal Architecture" style="width: 50%;">
 </div>
 
 
