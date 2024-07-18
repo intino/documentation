@@ -1,6 +1,6 @@
 ---
-title: "Bienvenido a la Documentación de Intino"
-date: 2023-07-18T15:00:00Z
+title: "Intino"
+date: 2024-07-18T15:00:00Z
 draft: false
 ---
 
@@ -13,7 +13,7 @@ This wiki aims to guide each aspect, offering clarity on the components and thei
 Intino comprises a suite of tools, frameworks, and languages, enabling developers to build, evolve, and maintain **[Intino Systems](Intino_Systems)** around three critical aspects: Infrastructure, Business Units, and DevOps.
 
 * **Infrastructure:** Discover the core services that form the backbone of Intino, ensuring seamless data management and security across the platform. [Learn more](infrastructure).
-* **Business Units:** Learn how Intino integrates with business operations, facilitating efficient data processing and decision-making through advanced architectural designs and communication patterns. [Learn more](Business_Units).
+* **Business Units:** Learn how Intino integrates with business operations, facilitating efficient data processing and decision-making through advanced architectural designs and communication patterns. [Learn more](Business-Units).
 * **DevOps:** Explore the integration and delivery processes. [Learn more](devops).
 
 <div style="text-align: center;">
@@ -30,4 +30,4 @@ Intino is designed to automate and simplify the software development process usi
 * **Higher Quality Products Tailored to Specific User Needs:** The use of DSLs ensures that the software directly addresses the specialized needs of a given domain, resulting in fewer bugs and inconsistencies. The platform’s architecture also promotes consistent development practices, which improve overall product quality. This allows developers to deliver software that aligns more closely with customer expectations.
 
 ## Getting Started
-Ready to begin with Intino? Follow our [Getting Started Guide](Getting_Started_Guide) to set up your development environment and create your first project.
+Ready to begin with Intino? Follow our [Getting Started Guide](Getting_Started) to set up your development environment and create your first project.
