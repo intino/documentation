@@ -15,7 +15,7 @@ Download and install the IntelliJ IDEA IDE, ensuring it's the most recent versio
 ### Set Up Java Development Kit (JDK)
 Install the appropriate version of the Java Development Kit (JDK) required for your project and configure IntelliJ to recognize it as the primary development environment.
 
-### Install the [Intino Plugin](plugin)
+### Install the [Intino Plugin](../tools/plugin)
 Access IntelliJ's plugin marketplace and search for the Intino plugin. Install and enable it to gain access to features that automate the development workflow, such as project setup and module management.
 
 ## Create a New Project
