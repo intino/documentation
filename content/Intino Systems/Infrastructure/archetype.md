@@ -55,4 +55,4 @@ The definition of the archetype is completed with the inclusion of a plugin in t
   IntinoPlugin("io.intino.archetype", "archetype-plugin", "2.0.0", Export)
 ```
 
-To generate the archetype, it will need to be exported using [Intino Factory](../../plugin#legio), thereby distributing the various targets of the archetype to the artifactory described in the artifact. Alternatively, it can be installed by using the shift modifier when executing the action.
+To generate the archetype, it will need to be exported using [Intino Factory](../../../tools/plugin#legio), thereby distributing the various targets of the archetype to the artifactory described in the artifact. Alternatively, it can be installed by using the shift modifier when executing the action.

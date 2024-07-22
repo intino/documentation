@@ -15,7 +15,7 @@ Magritte consists of two essential components: the codebase and the code generat
 The code generator complements the codebase by dynamically building classes based on interpreted Tara models. It acts as a bridge between abstract definitions within a Tara model and practical implementation details in programming languages like Java. Proficient at parsing Tara models intricacies, the code generator autonomously generates classes aligning with the model's domain concepts. This automation accelerates implementation and equips programmers with a ready-to-use set of classes. By seamlessly translating Tara models into executable code, Magritte's code generator enhances the accessibility and usability of Tara models, offering a more intuitive and developer-friendly experience.
 
 <div style="text-align: center;margin-top: 40px;">
-  <img src="../../../images/Magritte_architecture.png" alt="Architecture" style="width: 50%;">
+  <img src="../../../images/magritte_architecture.png" alt="Architecture" style="width: 50%;">
 </div>
 
 ## Codebase

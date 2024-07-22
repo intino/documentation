@@ -10,11 +10,11 @@ Welcome to the Intino Wiki, your comprehensive guide to understanding the archit
 This wiki aims to guide each aspect, offering clarity on the components and their contributions to the overall system. Whether you are a developer, a project manager, or a stakeholder, this wiki will provide you with the insights needed to understand the technical and operational capabilities of Intino.
 
 ## What is Intino
-Intino comprises a suite of tools, frameworks, and languages, enabling developers to build, evolve, and maintain **[Intino Systems](Intino_Systems)** around three critical aspects: Infrastructure, Business Units, and DevOps.
+Intino comprises a suite of tools, frameworks, and languages, enabling developers to build, evolve, and maintain **[Intino Systems](intino-systems)** around three critical aspects: Infrastructure, Business Units, and DevOps.
 
-* **Infrastructure:** Discover the core services that form the backbone of Intino, ensuring seamless data management and security across the platform. [Learn more](infrastructure).
-* **Business Units:** Learn how Intino integrates with business operations, facilitating efficient data processing and decision-making through advanced architectural designs and communication patterns. [Learn more](Business-Units).
-* **DevOps:** Explore the integration and delivery processes. [Learn more](devops).
+* **Infrastructure:** Discover the core services that form the backbone of Intino, ensuring seamless data management and security across the platform. [Learn more](intino-systems/infrastructure).
+* **Business Units:** Learn how Intino integrates with business operations, facilitating efficient data processing and decision-making through advanced architectural designs and communication patterns. [Learn more](intino-systems/Business-Units).
+* **DevOps:** Explore the integration and delivery processes. [Learn more](intino-systems/devops).
 
 <div style="text-align: center;">
   <img src="images/Aspects.png" alt="Aspects" style="width: 50%;">
@@ -30,4 +30,4 @@ Intino is designed to automate and simplify the software development process usi
 * **Higher Quality Products Tailored to Specific User Needs:** The use of DSLs ensures that the software directly addresses the specialized needs of a given domain, resulting in fewer bugs and inconsistencies. The platform’s architecture also promotes consistent development practices, which improve overall product quality. This allows developers to deliver software that aligns more closely with customer expectations.
 
 ## Getting Started
-Ready to begin with Intino? Follow our [Getting Started Guide](Getting_Started) to set up your development environment and create your first project.
+Ready to begin with Intino? Follow our [Getting Started Guide](getting-started) to set up your development environment and create your first project.

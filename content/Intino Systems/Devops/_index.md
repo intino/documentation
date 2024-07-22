@@ -5,18 +5,18 @@ draft: false
 weight: 3
 ---
 
-DevOps practices streamline the lifecycle of software creation, from development to deployment. A critical aspect of this process in an [Intino System](../Intino_Systems) is the management of software artifacts—components or resources used during the development process. Intino employs a sophisticated approach using [Maven](https://maven.apache.org/) and [Artifactory](https://jfrog.com/artifactory/) to enhance these practices, ensuring efficient package management and distribution.
+DevOps practices streamline the lifecycle of software creation, from development to deployment. A critical aspect of this process in an [Intino System](../) is the management of software artifacts—components or resources used during the development process. Intino employs a sophisticated approach using [Maven](https://maven.apache.org/) and [Artifactory](https://jfrog.com/artifactory/) to enhance these practices, ensuring efficient package management and distribution.
 
 Artifact management involves handling the various binaries and libraries produced during software builds. It includes storing, versioning, and retrieving build artifacts, which are essential for continuous integration and deployment pipelines. Effective artifact management helps in maintaining consistency and efficiency in software deployment and updates.
 
-It is not limited to application code or service configurations; it extends to managing the entire technological stack. Whether it’s handling the underlying [infrastructure](../infrastructure) or the specific needs of different [business units](../Business-Units), or even docker images, these tools provide a robust mechanism for versioning, storing, and retrieving all necessary artifacts. This integrated approach ensures that both the infrastructure and each business unit can consistently deploy and operate with the most up-to-date and stable versions of software, thereby enhancing reliability and facilitating continuous improvement across all facets of the organization.
+It is not limited to application code or service configurations; it extends to managing the entire technological stack. Whether it’s handling the underlying [infrastructure](../infrastructure) or the specific needs of different [business units](../business-units), or even docker images, these tools provide a robust mechanism for versioning, storing, and retrieving all necessary artifacts. This integrated approach ensures that both the infrastructure and each business unit can consistently deploy and operate with the most up-to-date and stable versions of software, thereby enhancing reliability and facilitating continuous improvement across all facets of the organization.
 
 ## Development Lifecycle
 
 The development lifecycle model leverages modern CI/CD practices and tools to streamline the software development process, ensuring quick integration, testing, and deployment of new code. This approach enhances the efficiency and reliability of delivering software updates to end-users. It integrates various tools and services to ensure smooth and efficient software development and deployment:
 
 <div style="text-align: center;">
-  <img src="../../images/Lifecycle.png" alt="Lifecycle" style="width: 50%;">
+  <img src="../../images/Lifecycle.png" alt="Lifecycle" style="width: 60%;">
 </div>
 
 ### Binary Repository
@@ -45,7 +45,7 @@ Using tools like Ansible and Jenkins, new code changes are frequently integrated
 
 ## Project Model
 
-In Intino, [Legio DSL](Plugin#Legio) orchestrates the build process, dependency management, and the deployment of artifacts. It allows the definition of a project model to manage project builds, dependencies, plugins, and other configurations. An integral part of this process involves utilizing Maven coordinates to uniquely identify every artifact, which are then managed within an internal Artifactory.
+In Intino, [Legio DSL](../../tools/plugin#Legio) orchestrates the build process, dependency management, and the deployment of artifacts. It allows the definition of a project model to manage project builds, dependencies, plugins, and other configurations. An integral part of this process involves utilizing Maven coordinates to uniquely identify every artifact, which are then managed within an internal Artifactory.
 
 ### Maven Coordinates
 

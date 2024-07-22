@@ -31,9 +31,9 @@ rule type(Person)
 * `+Capitalize`and `+Year` are formatters that define how objects are transformed
 
 
-It is available a full list of [condition functions](reference/functions) and [formatters](reference/formatters) that can be used for defining rules.
+It is available a full list of [condition functions](reference#functions) and [formatters](reference#formatters) that can be used for defining rules.
 
-To escape characters, [system marks](reference/escape) are also available.
+To escape characters, [system marks](reference#escape) are also available.
 
 In addition, new functions, formatters and class adapters can be programatically created. You can read about it in the [programming guide](programming).
 

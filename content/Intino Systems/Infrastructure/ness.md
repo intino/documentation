@@ -48,7 +48,7 @@ The latest complete version of the source metamodel of the DSL can be found at t
 Below, we will walk through an example of how to configure each capability of DataHub using the DSL. This example will cover setting up event structures, the messaging broker, the datalake, terminals, and shared datamarts, providing a practical guide to understanding and applying the DSL in a real-world scenario.
 
 <div style="text-align: center;">
-  <img src="File:Ness-m1.png" alt="Example of configuring components in a Datahub" style="width: 50%;">
+  <img src="../../../images/Ness-m1.png" alt="Example of configuring components in a Datahub" style="width: 50%;">
 </div>
 
 In the provided DSL example, a datalake and a broker are configured to manage events and resources in DataHub, using a clear and organized structure that enables efficient data management. The datalake is established with a daily time scale and is located in the "/home/intino/datalake" directory. Additionally, a scheduled task is included to seal data every day at 4:00 AM, which helps maintain the integrity and efficiency of data storage. In this case, the [cron](http://www.cronmaker.com/) format is used to define the period.
@@ -64,7 +64,7 @@ The "monitoring" `Namespace` defines the data structure that the system will man
 By using the Intino plugin, users can enhance their DSL experience. This plugin allows viewing the associated metamodel and offers code assistance features such as code completion and real-time error analysis, significantly easing the configuration process and helping to avoid common mistakes. More information about the Intino plugin can be found [here](https://intino.systems/wiki/index.php).
 
 <div style="text-align: center;">
-  <img src="File:Ness-artifact.png" alt="Configuration of datahub artifact" style="width: 50%;">
+  <img src="../../../images/Ness-artifact.png" alt="Configuration of datahub artifact" style="width: 50%;">
 </div>
 
 In the figure, the configuration of an artifact designed to be used as a datahub is displayed. This configuration utilizes the Ness DSL, specifically its latest version. When setting up the artifact to use this DSL, the IDE will require the addition of a set of parameters that are recognized by the Datahub platform. These must be provided in the format "name"="value" on the run configuration. The parameters are:
